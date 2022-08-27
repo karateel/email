@@ -32,11 +32,19 @@
       color: #9aa8cf !important;
       background: none;
       }
+      .info-block{
+        width: fit-content;
+      }
+      @media screen and (max-width: 480px) {
+        .mobile-info{
+            padding-top: 16px;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#05102E">
     <!--Header-->
-    <mj-section background-color="#1D2742">
+    <mj-section background-color="#1D2742" full-width="full-width">
       <mj-column>
         <mj-image
           href="https://not4shy.com"
@@ -58,28 +66,38 @@
     </mj-section>
 
     <mj-section
+            css-class="info-block"
       text-align="center"
-      border="1px solid #00E6F6">
-      <mj-column>
+      border="1px solid #00E6F6"
+      border-radius="8px"
+    >
+      <mj-column width="148px">
         <mj-text
-          text-align="center"
+          text-align="left"
+          padding="0"
+          padding-bottom="16px"
+          padding-left="16px"
           font-size="16px" font-family="Montserrat" color="#04CDE1">
           <a>{{username}}</a>
         </mj-text>
         <mj-text
-          text-align="center"
-          font-size="16px" font-family="Montserrat" color="#04CDE1">
+          text-align="left"
+          padding="0"
+          padding-left="16px"
+          font-size="16px"
+          font-family="Montserrat" color="#04CDE1">
           <a href="{{easy_auth_link}}" class="profile-chat-btn">
             <span class="mdi mdi-chat-outline"></span>
             Chat Now
           </a>
         </mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text font-size="16px" font-family="Montserrat" color="#9AA8CF">
+      <mj-column width="148px" css-class="mobile-info">
+        <mj-text padding="0" padding-left="16px" padding-bottom="16px" font-size="16px" font-family="Montserrat" color="#9AA8CF">
+          |
           {{city}}
         </mj-text>
-        <mj-text>
+        <mj-text padding="0" padding-left="16px">
           <a href="{{easy_auth_link}}" class="profile-chat-btn unlike-btn">
             <span class="mdi mdi-heart"></span>
             Unlike her
@@ -112,7 +130,7 @@
     </mj-section>
 
     <!-- Footer -->
-    <mj-section background-color="#1D2742">
+    <mj-section background-color="#1D2742" full-width="full-width">
       <mj-column>
         <mj-text align="center" font-size="16px" font-family="Montserrat" color="#9AA8CF">
           © 2022 Not4Shy. All rights reserved.
