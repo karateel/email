@@ -106,35 +106,6 @@
 
   </style>
   <style type="text/css">
-    .link-style {
-      background: linear-gradient(90deg, #00E6F6 0%, #107797 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-fill-color: transparent;
-    }
-
-    .profile-chat-btn {
-      background-color: #9aa8cf;
-      border-radius: 8px;
-      padding-left: 6px;
-      color: #05102E !important;
-      font-size: 14px;
-      padding: 2px 10px;
-      text-decoration: none;
-    }
-
-    .profile-chat-btn:hover {
-      color: #ffffff;
-    }
-
-    .unlike-btn {
-      border: 1px solid #9aa8cf;
-      border-radius: 8px;
-      color: #9aa8cf !important;
-      background: none;
-    }
-
     .info-block {
       width: fit-content;
     }
@@ -172,7 +143,7 @@
                                     <tr>
                                       <td style="width:184px;">
                                         <a href="https://not4shy.com" target="_blank">
-                                          <img height="auto" src="http://cdn.mcauto-images-production.sendgrid.net/f616c55ad776e948/0856efb2-ffe2-4868-a4da-7840a7e2e041/368x80.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="184" />
+                                          <img alt="Not4Shy logo" height="auto" src="http://cdn.mcauto-images-production.sendgrid.net/f616c55ad776e948/0856efb2-ffe2-4868-a4da-7840a7e2e041/368x80.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="184" />
                                         </a>
                                       </td>
                                     </tr>
@@ -207,17 +178,17 @@
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:center;color:#9AA8CF;"><a class="link-style" href="https://not4shy.com">{{username}}</a> Viewed Your Profile!</div>
+                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:center;color:#9AA8CF;"><a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com">{{username}}</a> Viewed Your Profile!</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                           <tbody>
                             <tr>
-                              <td style="width:296px;">
+                              <td style="width:296px;" class="mj-full-width-mobile">
                                 <a href="https://not4shy.com" target="_blank">
-                                  <img height="auto" srcset="1123.png" style="border:0;border-radius:8px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="296" />
+                                  <img alt="profile photo" height="auto" src="https://qajawsqyxabhnfep.s3.amazonaws.com/dRpGKJdSnwwRInJu/assets/photos/upload_42/2527_92da8b1e548be90cd947f6adf0d81511_p.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3V6PMJDH3K5AX77W%2F20220830%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220830T115738Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c0823ea3145b508ffb9002fa72dca180f7b2da5ba84cb06cefdda8344fcc39c1" style="border:0;border-radius:8px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="296" />
                                 </a>
                               </td>
                             </tr>
@@ -246,12 +217,17 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0;padding-bottom:16px;padding-left:16px;word-break:break-word;">
-                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:left;color:#04CDE1;"><a>{{username}}</a></div>
+                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:left;color:#04CDE1;"><a style="color:#04CDE1; text-decoration: none">{{username}}</a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0;padding-left:16px;word-break:break-word;">
-                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:left;color:#04CDE1;"><a href="{{easy_auth_link}}" class="profile-chat-btn">
+                        <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:left;color:#04CDE1;"><a style="background-color: #9aa8cf;
+      border-radius: 8px;
+      padding: 2px;
+      color: #05102E !important;
+      font-size: 14px;
+      text-decoration: none;" href="{{easy_auth_link}}">
                             <span class="mdi mdi-chat-outline"></span> Chat Now </a></div>
                       </td>
                     </tr>
@@ -269,7 +245,12 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0;padding-left:16px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><a href="{{easy_auth_link}}" class="profile-chat-btn unlike-btn">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><a href="{{easy_auth_link}}" style="border: 1px solid #9aa8cf;
+      border-radius: 8px;
+      text-decoration: none;
+      padding: 2px;
+      color: #9aa8cf !important;
+      background: none;">
                             <span class="mdi mdi-heart"></span> Unlike her </a></div>
                       </td>
                     </tr>
@@ -295,12 +276,12 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <td align="center" vertical-align="middle" class="link-button" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                           <tbody>
                             <tr>
-                              <td align="center" bgcolor="linear-gradient(90deg, #00E6F6 0%, #107797 100%)" role="presentation" style="border:none;border-radius:8px;cursor:auto;mso-padding-alt:27px 74px;background:linear-gradient(90deg, #00E6F6 0%, #107797 100%);" valign="middle">
-                                <a href="{{ link_to_profile }}" style="display:inline-block;background:linear-gradient(90deg, #00E6F6 0%, #107797 100%);color:white;font-family:Montserrat;font-size:16px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:27px 74px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View Their Profile </a>
+                              <td align="center" bgcolor="#107797" role="presentation" style="border:none;border-radius:8px;cursor:auto;mso-padding-alt:27px 74px;background:#107797;" valign="middle">
+                                <a href="https://not4shy.com" style="display:inline-block;background:#107797;color:white;font-family:Montserrat;font-size:16px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:27px 74px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View Their Profile </a>
                               </td>
                             </tr>
                           </tbody>
@@ -364,12 +345,12 @@
                               </td>
                             </tr>
                             <tr>
-                              <td align="center" class="link-style" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://not4shy.com/support/cookies">Cookies</a>
-                                  <span style="-webkit-text-fill-color: #9AA8CF">|</span>
-                                  <a href="https://not4shy.com/support/terms">Terms and conditions</a>
-                                  <span style="-webkit-text-fill-color: #9AA8CF">|</span>
-                                  <a href="https://not4shy.com/support/privacy">Privacy Policy</a>
+                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Montserrat;font-size:16px;line-height:1;text-align:center;color:#000000;"><a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/cookies">Cookies</a>
+                                  <span style="color: #9AA8CF">|</span>
+                                  <a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/terms">Terms and conditions</a>
+                                  <span style="color: #9AA8CF">|</span>
+                                  <a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/privacy">Privacy Policy</a>
                                 </div>
                               </td>
                             </tr>
