@@ -54,8 +54,8 @@
     <mj-section background-color="#1D2742 !important" full-width="full-width">
       <mj-column>
         <mj-image
-          href="https://not4shy.com"
-          alt="Not4Shy logo"
+          href="https://#.com"
+          alt="# logo"
           width="184px" src="http://cdn.mcauto-images-production.sendgrid.net/f616c55ad776e948/0856efb2-ffe2-4868-a4da-7840a7e2e041/368x80.png"/>
       </mj-column>
     </mj-section>
@@ -64,7 +64,7 @@
       <mj-column>
         <mj-text align="center" font-size="16px" font-family="Montserrat" color="#9AA8CF">
           You got a new message from
-            <a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com">{{this.from}}</a>.
+            <a style="color:#04CDE1; text-decoration: none" href="https://#.com">{{this.from}}</a>.
           Run to see.
         </mj-text>
         </mj-column>
@@ -147,7 +147,7 @@
       <mj-column>
         <mj-text align="center" font-size="16px" font-family="Montserrat" color="#9AA8CF">
           You have received these letters because you left your email address at yummyladies if you have a question,
-          or need assistance, please contact <a style="color:#04CDE1; text-decoration: none" href="mailto:support@not4shy.com">support@not4shy.com</a>
+          or need assistance, please contact <a style="color:#04CDE1; text-decoration: none" href="mailto:#">#</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -156,14 +156,14 @@
     <mj-section background-color="#1D2742" full-width="full-width">
       <mj-column>
         <mj-text align="center" font-size="16px" font-family="Montserrat" color="#9AA8CF">
-          © 2022 Not4Shy. All rights reserved.
+          © 2022 #. All rights reserved.
         </mj-text>
         <mj-text align="center" font-size="16px" font-family="Montserrat" >
-          <a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/cookies">Cookies</a>
+          <a style="color:#04CDE1; text-decoration: none" href="https://#/support/cookies">Cookies</a>
           <span style="color: #9AA8CF">|</span>
-          <a  style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/terms">Terms and conditions</a>
+          <a  style="color:#04CDE1; text-decoration: none" href="https://#/support/terms">Terms and conditions</a>
           <span style="color: #9AA8CF">|</span>
-          <a style="color:#04CDE1; text-decoration: none" href="https://not4shy.com/support/privacy">Privacy Policy</a>
+          <a style="color:#04CDE1; text-decoration: none" href="https://#/support/privacy">Privacy Policy</a>
         </mj-text>
       </mj-column>
     </mj-section>
